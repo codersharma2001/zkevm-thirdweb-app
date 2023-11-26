@@ -11,7 +11,7 @@
     "export": "next export",
     "generate": "npx thirdweb@latest generate",
     "add-component": "npx --yes shadcn-ui@latest add",
-    "postinstall": "node postinstall.mjs"
+    "postinstall": "node postinstall.mjsnpx --yes thirdweb@latest generate"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "1.0.3",
